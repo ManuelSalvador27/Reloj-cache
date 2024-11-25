@@ -1,0 +1,22 @@
+{
+  "name": "reloj-cache",
+  "version": "1.0.0",
+  "description": "Proyecto para un reloj con cache, basado en GitHub Pages.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build step defined.'",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "reloj",
+    "cache",
+    "github-pages"
+  ],
+  "author": "Manuel Salvador",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "devDependencies": {}
+}
