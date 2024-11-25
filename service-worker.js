@@ -1,5 +1,12 @@
 const CACHE_NAME = "reloj-global-cache";
-const urlsToCache = ["/", "/index.html", "/styles.css", "/app.js", "/clock-192.png", "/clock-512.png"];
+const urlsToCache = [
+  "/",
+  "/index.html",
+  "/styles.css",
+  "/app.js",
+  "/clock-192.png",
+  "/clock-512.png",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
