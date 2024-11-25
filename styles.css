@@ -1,0 +1,29 @@
+:root {
+    --background-color: #282c34;
+    --text-color: #ffffff;
+    --highlight-color: #61dafb;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  select {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: var(--highlight-color);
+    border: none;
+    border-radius: 5px;
+  }
+  
